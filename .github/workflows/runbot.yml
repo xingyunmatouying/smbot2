@@ -2,7 +2,7 @@ name: Run bot
 
 on:
   schedule:
-   - cron: "50 17 * * 2"
+   - cron: "1 */5 * * *"
   workflow_dispatch:
 
 #concurrency:
